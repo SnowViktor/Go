@@ -1,0 +1,19 @@
+1. cd %HOMEPATH%
+2. cd go\src
+3. mkdir name
+4. cd name
+5. type nul >> main.go
+6. go mod init name
+7. CODE
+8. 1. go run .  2. go run name.go
+9. import "name" (from pkg.go.dev)
+10. go mod tidy
+
+var(
+	a bool = true
+	b string = "hi"
+	c int = -1
+	d uint = 1
+	e float64 = 0.1
+	f complex128 = 1+2i
+)
