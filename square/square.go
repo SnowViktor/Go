@@ -35,7 +35,7 @@ func iterativeSquare(n int) int {
 		n = -n
 	}
 	result := 0
-	for i := 0; i < n; i++ {
+	for range n {
 		result += n
 	}
 	return result
